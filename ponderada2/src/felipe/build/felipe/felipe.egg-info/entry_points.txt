@@ -1,0 +1,3 @@
+[console_scripts]
+felipe-entrypoint = felipe.robo_gazebo:main
+

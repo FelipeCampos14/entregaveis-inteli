@@ -1,0 +1,40 @@
+[0.765s] Invoking command in '/home/felipe-campos/ros2_ws/src/felipe': PYTHONPATH=/home/felipe-campos/ros2_ws/src/build/felipe/prefix_override:/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/felipe build --build-base /home/felipe-campos/ros2_ws/src/build/felipe/build install --record /home/felipe-campos/ros2_ws/src/build/felipe/install.log --single-version-externally-managed
+[1.480s] running egg_info
+[1.480s] creating ../build/felipe/felipe.egg-info
+[1.482s] writing ../build/felipe/felipe.egg-info/PKG-INFO
+[1.487s] writing dependency_links to ../build/felipe/felipe.egg-info/dependency_links.txt
+[1.487s] writing entry points to ../build/felipe/felipe.egg-info/entry_points.txt
+[1.488s] writing requirements to ../build/felipe/felipe.egg-info/requires.txt
+[1.488s] writing top-level names to ../build/felipe/felipe.egg-info/top_level.txt
+[1.489s] writing manifest file '../build/felipe/felipe.egg-info/SOURCES.txt'
+[1.493s] reading manifest file '../build/felipe/felipe.egg-info/SOURCES.txt'
+[1.495s] writing manifest file '../build/felipe/felipe.egg-info/SOURCES.txt'
+[1.496s] running build
+[1.496s] running build_py
+[1.496s] creating /home/felipe-campos/ros2_ws/src/build/felipe/build
+[1.497s] creating /home/felipe-campos/ros2_ws/src/build/felipe/build/lib
+[1.498s] creating /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe
+[1.499s] copying felipe/robo_gazebo.py -> /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe
+[1.499s] copying felipe/draw_circle.py -> /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe
+[1.500s] copying felipe/__init__.py -> /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe
+[1.501s] running install
+[1.502s] running install_lib
+[1.504s] creating /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe
+[1.504s] copying /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe/robo_gazebo.py -> /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe
+[1.505s] copying /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe/draw_circle.py -> /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe
+[1.505s] copying /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe/__init__.py -> /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe
+[1.507s] byte-compiling /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/robo_gazebo.py to robo_gazebo.cpython-310.pyc
+[1.509s] byte-compiling /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/draw_circle.py to draw_circle.cpython-310.pyc
+[1.510s] byte-compiling /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/__init__.py to __init__.cpython-310.pyc
+[1.512s] running install_data
+[1.514s] creating /home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index
+[1.515s] creating /home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index/resource_index
+[1.515s] creating /home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index/resource_index/packages
+[1.516s] copying resource/felipe -> /home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index/resource_index/packages
+[1.516s] copying package.xml -> /home/felipe-campos/ros2_ws/src/install/felipe/share/felipe
+[1.517s] running install_egg_info
+[1.522s] Copying ../build/felipe/felipe.egg-info to /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info
+[1.527s] running install_scripts
+[1.579s] Installing felipe-entrypoint = felipe.robo_gazebo: maindraw-circle script to /home/felipe-campos/ros2_ws/src/install/felipe/lib/felipe
+[1.581s] writing list of installed files to '/home/felipe-campos/ros2_ws/src/build/felipe/install.log'
+[1.635s] Invoked command in '/home/felipe-campos/ros2_ws/src/felipe' returned '0': PYTHONPATH=/home/felipe-campos/ros2_ws/src/build/felipe/prefix_override:/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/felipe build --build-base /home/felipe-campos/ros2_ws/src/build/felipe/build install --record /home/felipe-campos/ros2_ws/src/build/felipe/install.log --single-version-externally-managed

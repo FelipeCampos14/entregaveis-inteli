@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+build/felipe/felipe.egg-info/PKG-INFO
+build/felipe/felipe.egg-info/SOURCES.txt
+build/felipe/felipe.egg-info/dependency_links.txt
+build/felipe/felipe.egg-info/entry_points.txt
+build/felipe/felipe.egg-info/requires.txt
+build/felipe/felipe.egg-info/top_level.txt
+build/felipe/felipe.egg-info/zip-safe
+felipe/__init__.py
+felipe/robo_gazebo.py
+resource/felipe
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

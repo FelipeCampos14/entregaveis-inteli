@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000499] (felipe) JobQueued: {'identifier': 'felipe', 'dependencies': OrderedDict()}
+[0.001117] (felipe) JobStarted: {'identifier': 'felipe'}
+[0.099384] (-) TimerEvent: {}
+[0.199902] (-) TimerEvent: {}
+[0.300379] (-) TimerEvent: {}
+[0.400861] (-) TimerEvent: {}
+[0.501258] (-) TimerEvent: {}
+[0.601769] (-) TimerEvent: {}
+[0.702290] (-) TimerEvent: {}
+[0.759458] (felipe) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/felipe', 'build', '--build-base', '/home/felipe-campos/ros2_ws/src/build/felipe/build', 'install', '--record', '/home/felipe-campos/ros2_ws/src/build/felipe/install.log', '--single-version-externally-managed'], 'cwd': '/home/felipe-campos/ros2_ws/src/felipe', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felipe-campos', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': 'true', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/felipe-campos', 'OLDPWD': '/home/felipe-campos/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'felipe-campos', 'NAME': 'Jarvis', 'WSL_INTEROP': '/run/WSL/317_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/Docker/host/bin:/mnt/c/Users/55119/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/55119/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/55119/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/55119/AppData/Roaming/npm:/mnt/c/Users/55119/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/55119/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/heroku/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/felipe-campos/ros2_ws/src/build/felipe', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felipe-campos/ros2_ws/src/build/felipe/prefix_override:/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.802495] (-) TimerEvent: {}
+[0.903088] (-) TimerEvent: {}
+[1.003631] (-) TimerEvent: {}
+[1.104199] (-) TimerEvent: {}
+[1.209395] (-) TimerEvent: {}
+[1.310183] (-) TimerEvent: {}
+[1.411263] (-) TimerEvent: {}
+[1.480395] (felipe) StdoutLine: {'line': b'running egg_info\n'}
+[1.481391] (felipe) StdoutLine: {'line': b'creating ../build/felipe/felipe.egg-info\n'}
+[1.482773] (felipe) StdoutLine: {'line': b'writing ../build/felipe/felipe.egg-info/PKG-INFO\n'}
+[1.487686] (felipe) StdoutLine: {'line': b'writing dependency_links to ../build/felipe/felipe.egg-info/dependency_links.txt\n'}
+[1.488213] (felipe) StdoutLine: {'line': b'writing entry points to ../build/felipe/felipe.egg-info/entry_points.txt\n'}
+[1.488836] (felipe) StdoutLine: {'line': b'writing requirements to ../build/felipe/felipe.egg-info/requires.txt\n'}
+[1.489032] (felipe) StdoutLine: {'line': b'writing top-level names to ../build/felipe/felipe.egg-info/top_level.txt\n'}
+[1.489609] (felipe) StdoutLine: {'line': b"writing manifest file '../build/felipe/felipe.egg-info/SOURCES.txt'\n"}
+[1.493961] (felipe) StdoutLine: {'line': b"reading manifest file '../build/felipe/felipe.egg-info/SOURCES.txt'\n"}
+[1.495796] (felipe) StdoutLine: {'line': b"writing manifest file '../build/felipe/felipe.egg-info/SOURCES.txt'\n"}
+[1.496726] (felipe) StdoutLine: {'line': b'running build\n'}
+[1.497162] (felipe) StdoutLine: {'line': b'running build_py\n'}
+[1.497307] (felipe) StdoutLine: {'line': b'creating /home/felipe-campos/ros2_ws/src/build/felipe/build\n'}
+[1.497853] (felipe) StdoutLine: {'line': b'creating /home/felipe-campos/ros2_ws/src/build/felipe/build/lib\n'}
+[1.499044] (felipe) StdoutLine: {'line': b'creating /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe\n'}
+[1.499768] (felipe) StdoutLine: {'line': b'copying felipe/robo_gazebo.py -> /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe\n'}
+[1.500291] (felipe) StdoutLine: {'line': b'copying felipe/draw_circle.py -> /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe\n'}
+[1.500929] (felipe) StdoutLine: {'line': b'copying felipe/__init__.py -> /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe\n'}
+[1.501972] (felipe) StdoutLine: {'line': b'running install\n'}
+[1.502863] (felipe) StdoutLine: {'line': b'running install_lib\n'}
+[1.504691] (felipe) StdoutLine: {'line': b'creating /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe\n'}
+[1.505351] (felipe) StdoutLine: {'line': b'copying /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe/robo_gazebo.py -> /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe\n'}
+[1.506003] (felipe) StdoutLine: {'line': b'copying /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe/draw_circle.py -> /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe\n'}
+[1.506450] (felipe) StdoutLine: {'line': b'copying /home/felipe-campos/ros2_ws/src/build/felipe/build/lib/felipe/__init__.py -> /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe\n'}
+[1.508333] (felipe) StdoutLine: {'line': b'byte-compiling /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/robo_gazebo.py to robo_gazebo.cpython-310.pyc\n'}
+[1.509742] (felipe) StdoutLine: {'line': b'byte-compiling /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/draw_circle.py to draw_circle.cpython-310.pyc\n'}
+[1.510888] (felipe) StdoutLine: {'line': b'byte-compiling /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/__init__.py to __init__.cpython-310.pyc\n'}
+[1.511452] (-) TimerEvent: {}
+[1.512848] (felipe) StdoutLine: {'line': b'running install_data\n'}
+[1.514532] (felipe) StdoutLine: {'line': b'creating /home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index\n'}
+[1.515695] (felipe) StdoutLine: {'line': b'creating /home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index/resource_index\n'}
+[1.516161] (felipe) StdoutLine: {'line': b'creating /home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index/resource_index/packages\n'}
+[1.516933] (felipe) StdoutLine: {'line': b'copying resource/felipe -> /home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index/resource_index/packages\n'}
+[1.517373] (felipe) StdoutLine: {'line': b'copying package.xml -> /home/felipe-campos/ros2_ws/src/install/felipe/share/felipe\n'}
+[1.517865] (felipe) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.523222] (felipe) StdoutLine: {'line': b'Copying ../build/felipe/felipe.egg-info to /home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info\n'}
+[1.527634] (felipe) StdoutLine: {'line': b'running install_scripts\n'}
+[1.580303] (felipe) StdoutLine: {'line': b'Installing felipe-entrypoint = felipe.robo_gazebo: maindraw-circle script to /home/felipe-campos/ros2_ws/src/install/felipe/lib/felipe\n'}
+[1.581680] (felipe) StdoutLine: {'line': b"writing list of installed files to '/home/felipe-campos/ros2_ws/src/build/felipe/install.log'\n"}
+[1.611727] (-) TimerEvent: {}
+[1.635084] (felipe) CommandEnded: {'returncode': 0}
+[1.691468] (felipe) JobEnded: {'identifier': 'felipe', 'rc': 0}
+[1.694661] (-) EventReactorShutdown: {}

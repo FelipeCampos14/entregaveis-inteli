@@ -1,0 +1,16 @@
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/robo_gazebo.py
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/draw_circle.py
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/__init__.py
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/__pycache__/robo_gazebo.cpython-310.pyc
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/__pycache__/draw_circle.cpython-310.pyc
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe/__pycache__/__init__.cpython-310.pyc
+/home/felipe-campos/ros2_ws/src/install/felipe/share/ament_index/resource_index/packages/felipe
+/home/felipe-campos/ros2_ws/src/install/felipe/share/felipe/package.xml
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info/zip-safe
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info/requires.txt
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info/entry_points.txt
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info/top_level.txt
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/python3.10/site-packages/felipe-0.0.0-py3.10.egg-info/PKG-INFO
+/home/felipe-campos/ros2_ws/src/install/felipe/lib/felipe/felipe-entrypoint = felipe.robo_gazebo: maindraw-circle
