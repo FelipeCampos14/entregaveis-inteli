@@ -11,5 +11,12 @@
         <input type="file" name="img"/>
         <input type="submit" value="Enviar">
     </form>
+
+    {% for item in imagens %}
+    <ul>
+        {{item}}
+    </ul>
+    {% endfor %}
+
 </body>
 </html>

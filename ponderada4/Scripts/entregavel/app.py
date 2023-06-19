@@ -25,12 +25,15 @@ def manda_imagem():
     imagem = request.files['img']
     name = secure_filename(imagem.filename)
     filetype = imagem.mimetype
+    data = imagem.read()
 
-    img = Img(img=imagem, name=name, mimetype=filetype)
+    img = Img(img=data, name=name, mimetype=filetype)
     session.add(img)
     session.commit()
 
-    return 'enviou'
+    imagens = session.query(Img).all()
+    return render_template("index.html", imagens = imagens)
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
