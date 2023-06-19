@@ -31,8 +31,7 @@ def manda_imagem():
     session.add(img)
     session.commit()
 
-    imagens = session.query(Img).all()
-    return render_template("index.html", imagens = imagens)
+    return render_template("index.html")
     
 
 if __name__ == '__main__':
