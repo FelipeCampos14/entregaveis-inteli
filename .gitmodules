@@ -1,3 +1,9 @@
 [submodule "entregaveis-modulo8"]
 	path = entregaveis-modulo8
 	url = https://github.com/FelipeCampos14/entregaveis-modulo8
+[submodule "entregaveis-modulo7"]
+	path = entregaveis-modulo7
+	url = https://github.com/FelipeCampos14/entregaveis-modulo7
+[submodule "entregaveis-modulo9"]
+	path = entregaveis-modulo9
+	url = https://github.com/FelipeCampos14/entregaveis-modulo9
